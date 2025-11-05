@@ -41,7 +41,7 @@ while True:
      
     for cond in win_conditions: 
         if slots[cond[0]] == slots[cond[1]] == slots[cond[2]] == player: 
-            print_board() 
+            print_game() 
             print(f"\nPlayer {player} has won!") 
             exit() 
     if player == " X ": 
