@@ -48,3 +48,7 @@ while True:
         player = " O " 
     else: 
         player = " X " 
+    if "   " not in slots:
+      print_game()
+      print("\nThe game has ended in a tie.")
+      exit()
